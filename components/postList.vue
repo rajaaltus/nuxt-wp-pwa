@@ -20,30 +20,3 @@ export default {
 }
 </script>
 
-<style>
-.post {
-  margin-bottom:20px;
-}
-h3 {
-  font-size:54px;
-  font-weight:bold;
-  line-height: 64px;
-}
-h3 a {
-  text-decoration: none;
-  color:#444;
-}
-p {
-  font-size:24px;
-  line-height: 150%;
-}
-.link-more {
-    display:none;
-}
-
-.more a {
-  font-size:22px;
-  color:#1e5799;
-}
-
-</style>

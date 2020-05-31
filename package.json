@@ -5,12 +5,12 @@
   "author": "Sean Hise",
   "private": true,
   "dependencies": {
-    "@nuxtjs/pwa": "^3.0.0-beta.20",
     "@nuxtjs/axios": "^5.3.6",
-    "bulma": "^0.4.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
     "hover.css": "^2.2.0",
     "node-sass": "^4.14.1",
     "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.31",
     "sass-loader": "^8.0.2"
   },
   "scripts": {
@@ -20,5 +20,6 @@
     "generate": "nuxt generate"
   },
   "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1"
   }
 }

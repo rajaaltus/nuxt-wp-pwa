@@ -22,27 +22,5 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.categories-menu {
-    width:100%;
-    color:#fff;
-    display: flex;
-    justify-content:space-around;
-    a {
-      color:#fff;
-      text-decoration:none;
-      padding:10px 10px;
-      display: inline-block;
-    }
-    a:hover {
-      color:#444;
-      background-color:#fff;
-    }
-    a.nuxt-link-exact-active {
-      background-color: #fff;
-      color:#444;
-    }
-}
 
 
-</style>

@@ -3,7 +3,17 @@ module.exports = {
   ** Extend nuxt using nuxt modules system (Alpha)
   ** Learn more: https://github.com/nuxt/nuxt-modules
   */
-  modules: [{ src: '@nuxtjs/pwa', options: { icon: { sizes: [512, 192, 380 ] } } }],
+  modules: [
+    { 
+      src: '@nuxtjs/pwa', 
+      options: { 
+        icon: { 
+          sizes: [512, 192, 380 ] 
+        } 
+      } 
+    },
+    'nuxt-buefy',
+  ],
   
   /*
   ** Headers of the page
@@ -24,6 +34,9 @@ module.exports = {
   /*
   ** Customize manifest.json
   */
+ buildModules: [
+  '@nuxtjs/moment'
+  ],
   manifest: {
     name: "Nuxt.js",
     theme_color: "#3B8070"
