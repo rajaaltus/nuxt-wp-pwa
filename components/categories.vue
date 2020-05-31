@@ -6,7 +6,7 @@
     <div>
        <nuxt-link to="/">home</nuxt-link>
     </div>
-    <div v-for="item in categories">
+    <div v-for="item in categories" :key="item.id">
       <nuxt-link :to="slugToUrl(item.slug)">{{ item.name }}</nuxt-link>
     </div>
   </div>
