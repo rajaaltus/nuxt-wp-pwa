@@ -4,7 +4,7 @@
       Recent Posts
     </h3>
     <ul>
-      <li v-for="item in posts">
+      <li v-for="item in posts" :key="item">
         <nuxt-link :to="slugToUrl(item.slug)">{{ item.title }}</nuxt-link>
       </li>
     </ul>
@@ -22,16 +22,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-h3 {
-  font-size:22px;
-}
-a {
-  color:#444;
-}
-a.nuxt-link-active {
-  color:#ccc;
-}
-</style>
